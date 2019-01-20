@@ -1,0 +1,16 @@
+# ignore eps files
+*.eps
+
+# ignore ipynb checkpoints
+.ipynb_checkpoints/*
+
+*.docx
+.ipynb_checkpoints/HW01-checkpoint.ipynb
+HW01.docx
+HW01.docx
+hw01soln.ipynb
+HW02 joint angles with com.pdf
+~$HW01.docx
+rimlesswheeldiagram.pdf
+HW01 joint angles with com.svg
+HW01 joint angles with com.pdf
