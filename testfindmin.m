@@ -8,8 +8,8 @@
 Q = [4 -1; -1 2];
 b = [1; -1];
 
-quadratictest = @(x) 1/2*x(:)'.*Q.*x(:) + b'.*x(:);
-% (The dot notation a .* b allows arrays to be used as input for a and b.)
+% TZ on 03-08-2018: removing the dots from the previous version, such that the outcome is a scalar
+quadratictest = @(x) 1/2*x(:)'*Q*x(:) + b'*x(:);
 
 xstar = -Q\b;
 
